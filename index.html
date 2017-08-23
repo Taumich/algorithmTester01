@@ -2,15 +2,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <head>
-        <script src="login.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="database.js"></script>
         <script src="app.js"></script>
     </head>
     
     <body ng-app='login' ng-controller='login-ctrl'>
-        <p>
-            {{message}}
-        </p>
+        <div style="search">
+            <input type="text" name="fname">
+            <button>
+                <h3>ok</h3>
+            </button>
+        </div>
+        
+        <p>{{message.player2.id}}</p>
+        <div>
+            <div>
+                <h3>{{message.player2.name}}</h3>
+                <h3>{{message.player2.score}}</h3>
+            </div>
+        </div>
     </body>
 </html>
