@@ -1,4 +1,3 @@
-var wasap = "wasap";
 
 var player =
     {
