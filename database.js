@@ -13,7 +13,7 @@ var player =
         },
         player3: {
             id:"player03",
-            name:"wayne",
+            name:"waynedawdada",
             score: 120
         }
     };
