@@ -8,7 +8,7 @@ var player =
         },
         player2: {
             id:"player02",
-            name:"squack",
+            name:"squackdawjbdlawbdlabwldabdaw",
             score: 100
         },
         player3: {
